@@ -1,10 +1,10 @@
 //game constant and variable
 let inputDir = { x: 0, y: 0 };
-const foodSound = new Audio('music/foodsound.mp3');
-const gameOverSound = new Audio('music/gameOver.mp3');
-const moveSound = new Audio('music/notif.mp3');
-const musicSound = new Audio('music/snakeGame.mp3');
-let speed = 2;
+const foodSound = new Audio('foodsound.mp3');
+const gameOverSound = new Audio('gameOver.mp3');
+const moveSound = new Audio('notif.mp3');
+const musicSound = new Audio('snakeGame.mp3');
+let speed = 4;
 let score = 0;
 let snake;
 let lastPaintTime = 0;
