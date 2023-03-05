@@ -105,7 +105,7 @@ align-items: center;
         font-family: 'Knewave', cursive;
     }
     #board{
-        background: linear-gradient(rgb(124, 228, 183), rgb(4, 94, 94));
+         background: linear-gradient(rgb(36, 41, 39), rgb(106, 32, 32));
         width: 90vmin;
         height: 44vmax;
         margin-top: 17px;
@@ -174,7 +174,7 @@ align-items: center;
     
     }
        #board{
-        background: linear-gradient(rgb(124, 228, 183), rgb(4, 94, 94));
+         background: linear-gradient(rgb(36, 41, 39), rgb(106, 32, 32));
         width: 90vmin;
         height: 44vmax;
         margin-top: 17px;
