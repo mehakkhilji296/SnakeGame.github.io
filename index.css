@@ -65,7 +65,7 @@ align-items: center;
 
 }
 .food{
-    background: url('snake_img/a2.png');
+    background: url('a2.png');
     /* background: linear-gradient(red, purple); */
     height: 20px;
     width: 20px;
@@ -122,7 +122,7 @@ align-items: center;
         margin: 4PX;
     }
     .food{
-        background: url('snake_img/a2.png');
+        background: url('a2.png');
         /* background: linear-gradient(red, purple); */
         height: 21px;
         width: 19px;
