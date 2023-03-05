@@ -109,7 +109,7 @@ align-items: center;
         width: 90vmin;
         height: 44vmax;
         margin-top: 17px;
-        border: 2px solid darkgreen;
+        border: 2px solid rgb(100, 0, 3);;
         display: grid;
         grid-template-rows: repeat(28, 1fr);
         grid-template-columns: repeat(28, 1fr);
@@ -172,5 +172,15 @@ align-items: center;
         transform: scale(1.02);
         border-radius: 11px;
     
+    }
+       #board{
+        background: linear-gradient(rgb(124, 228, 183), rgb(4, 94, 94));
+        width: 90vmin;
+        height: 44vmax;
+        margin-top: 17px;
+        border: 2px solid rgb(100, 0, 3);;
+        display: grid;
+        grid-template-rows: repeat(28, 1fr);
+        grid-template-columns: repeat(28, 1fr);
     }
 }
