@@ -35,7 +35,7 @@ function iscollide(snake){
     }
 
         // if you touches or bump into the wall
-        if(snake[0].x >=22 || snake[0].x<=0 && snake[0].y >=22 || snake[0].y<=0){
+        if(snake[0].x >=28 || snake[0].x<=0 && snake[0].y >=28 || snake[0].y<=0){
             return true;
         }
         return false;
@@ -67,7 +67,7 @@ if(snakearr[0].y === food.y && snakearr[0].x === food.x ){
     scoreBox.innerHTML = "Score:"+ score;
     snakearr.unshift({x:snakearr[0].x + inputDir.x, y:snakearr[0].y + inputDir.y});
     let a = 2;
-    let b =20;
+    let b =26;
     food ={x: Math.round(a +(b-a)*Math.random()),y: Math.round(a +(b-a)*Math.random())}
 }
 
